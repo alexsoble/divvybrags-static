@@ -1,0 +1,39 @@
+body { background-color: #3DB7E4;
+  font-family: 'Roboto', sans-serif; 
+  color: white; }
+
+h1 { font-size: 40px; }
+
+a { color: white; }
+
+.box { 
+  max-height: 800px; 
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 30px; 
+  padding-top: 0px; 
+  overflow-y: scroll;
+  width: 420px; 
+  margin-top: 100px; }
+
+.buttons { text-align: center; }
+
+.stat { font-size: 30px; }
+.bigger-text { font-size: 24px; }
+.smaller-text { font-size: 20px; }
+.smallest-text { font-size: 10px; }
+
+.sticky { position: fixed;
+  background: #1a8fbb;
+  padding-bottom: 5px;
+  padding-left: 20px; }
+
+#footer { bottom: 0px; right: 0px; padding: 20px; padding-top: 10px; height: 100px; }
+#header { top: 0px; width: 100%; left: 0px; padding-top: 20px; height: 40px; }
+
+#divvybrags-label { float; left; bottom: 40px; position: relative; font-size: 50px; }
+#divvybrags-label h1 { font-size: 50px; }
+
+.left-side-icons { margin-right: 35px; position: relative; bottom: 5px; float: right; }
+
+.fa { font-size: 40px; margin-right: 5px; }

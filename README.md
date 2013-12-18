@@ -1,0 +1,1 @@
+Nothing fancy here -- just a Jekyll site explaining the DivvyBrags Chrome extension.

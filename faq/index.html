@@ -5,25 +5,25 @@ title: FAQ
 
 <div class="box wide">
   <h2>FAQs:</h2>
-  <br/>
   <ul>
     <h3>
       <li>
         Didn't this app get shut down before?
       </h3>
-      <p>Yeah, but we're good now. This version doesn't use username or password. It even got a thumbs-up from Divvy's legal team.</p>
+      <p>Yeah... But we're all good now. Basically, Divvy didn't feel that the old version was secure for users (<a href="http://www.dnainfo.com/chicago/20130926/south-loop/divvy-shuts-down-inventors-mileage-tracking-app">here's the full story</a>). The new DivvyBrags is a Chrome extension, so it doesn't ask for your username or password at any point. It even got a thumbs-up from Divvy's IT team and legal department. Thanks Divvy!</p>
+      <img src="http://s3-ec.buzzfed.com/static/2013-12/enhanced/webdr02/13/2/anigif_enhanced-buzz-4462-1386918979-0.gif">
     </li>
     <h3>
       <li>
         Can you tell me about some excellent people who helped make DivvyBrags?
       </h3>
-      <p>Why, sure. <a href="https://github.com/tothebeat">Nick Bennett</a> wrote super-slick Python scripts to find distances between Divvy stations. The good folks at the <a href="http://www.smartchicagocollaborative.org/">Smart Chicago Collaborative</a> lent us their Google Maps for Businesses license. Drew Huening had the idea for a browser extension. Hunter Owens and Dan Gohlke gave great advice, <a href="https://twitter.com/iandees">Ian Dees</a> wrote the very first divvybikes.com scraping tool, and &mdash; last but not least &mdash; the Divvy team (a.) took the time to review this app and (b.) built a great bikeshare system for Chicago.</p>
+      <p>Why, certainly. <a href="https://github.com/tothebeat">Nick Bennett</a> wrote super-slick Python scripts to find distances between Divvy stations. The good folks at the <a href="http://www.smartchicagocollaborative.org/">Smart Chicago Collaborative</a> lent us their Google Maps for Businesses license. Drew Huening had the idea for a browser extension. Hunter Owens and Dan Gohlke gave great advice. <a href="https://twitter.com/iandees">Ian Dees</a> wrote the first scraping tool for the Divvy website. Last but not least, the Divvy team (a.) took the time to review this app and (b.) built a great bikeshare system for Chicago.</p>
     </li>
     <h3>
       <li>
-        How does DivvyBrags calculate milage?
+        How does DivvyBrags work?
       </h3>
-      <p>Distance data comes from the <a href="https://developers.google.com/maps/documentation/distancematrix/">Google Distance Matrix API</a>.</p>
+      <p>For each trip, DivvyBrags finds the cycling distance from Station A to Station B as measured by the <a href='https://developers.google.com/maps/documentation/distancematrix/'>Google Distance Matrix API</a> (bicycling mode). The assumption is that you're using DivvyBikes to travel from station to station. It's actually providing a lower bound for your milage &mdash; if you check a bike out at Station A, bike around for 20 minutes, and then check it back in at Station A, your DivvyBrag milage count doesn't increase.</p>
     </li>
     <h3>
       <li>

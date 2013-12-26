@@ -36,6 +36,10 @@ a { color: white; }
 
 #divvybrags-label a { float; left; bottom: 46px; position: relative; font-size: 50px; text-decoration: none; }
 #divvybrags-label h1 { font-size: 50px; }
+#leaderboard-link {
+  font-size: 22px !important;
+  font-style: italic;
+}
 
 .left-side-icons { margin-right: 35px; position: relative; bottom: 6px; float: right; }
 

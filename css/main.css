@@ -48,3 +48,7 @@ a { color: white; }
 img { margin-right: auto; margin-left: auto; padding: 20px; display: block; }
 
 a:hover { color: #16629d; font-weight: bold; } 
+
+iframe {
+  border: 0px
+}

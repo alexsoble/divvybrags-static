@@ -1,6 +1,5 @@
 $(function() {
   $.ajax({
-    type: "GET",
     url: "http://divvybrags-leaderboard.herokuapp.com/entries.json", 
     success: function(data) {
       // console.log(data);

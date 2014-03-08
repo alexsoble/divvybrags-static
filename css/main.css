@@ -7,17 +7,14 @@ h1 { font-size: 40px; }
 a { color: white; }
 
 .box { 
+  max-height: 800px; 
   margin-left: auto;
   margin-right: auto; 
   padding: 30px; 
   padding-top: 0px; 
-  width: 440px; 
-  margin-top: 100px;
-  overflow: visible;
-}
-
-.box.wide {
-  width: 620px; }
+  overflow-y: scroll;
+  width: 420px; 
+  margin-top: 100px; }
 
 .buttons { text-align: center; }
 
@@ -32,28 +29,11 @@ a { color: white; }
   padding-left: 20px; }
 
 #footer { bottom: 0px; right: 0px; padding: 20px; padding-top: 10px; height: 100px; }
-#header { top: 0px; width: 100%; left: 0px; padding-top: 20px; height: 40px; margin-bottom: 40px; }
+#header { top: 0px; width: 100%; left: 0px; padding-top: 20px; height: 40px; }
 
-#divvybrags-label a { float; left; bottom: 46px; position: relative; font-size: 50px; text-decoration: none; }
+#divvybrags-label { float; left; bottom: 40px; position: relative; font-size: 50px; }
 #divvybrags-label h1 { font-size: 50px; }
-#leaderboard-link {
-  font-size: 22px !important;
-  font-style: italic;
-}
 
-.left-side-icons { margin-right: 35px; position: relative; bottom: 6px; float: right; }
+.left-side-icons { margin-right: 35px; position: relative; bottom: 5px; float: right; }
 
 .fa { font-size: 40px; margin-right: 5px; }
-
-img { margin-right: auto; margin-left: auto; padding: 20px; display: block; }
-
-a:hover { color: #16629d; font-weight: bold; } 
-
-iframe {
-  border: 0px;
-}
-
-#leaderboard {
-  height: 500px;
-  overflow: visible;
-}

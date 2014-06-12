@@ -31,6 +31,8 @@ a { color: white; }
 #footer { bottom: 0px; right: 0px; padding: 20px; padding-top: 10px; height: 100px; }
 #header { top: 0px; width: 100%; left: 0px; padding-top: 20px; height: 40px; }
 
+li { margin: 15px 0; }
+
 #divvybrags-label { float; left; bottom: 40px; position: relative; font-size: 50px; }
 #divvybrags-label h1 { font-size: 50px; }
 

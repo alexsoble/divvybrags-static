@@ -41,18 +41,21 @@ li { margin: 15px 0; }
 
 .fa { font-size: 40px; margin-right: 15px; }
 
-iframe { border: none; overflow-y: scroll; width: 400px; }
+iframe { 
+  border: none; 
+  overflow-y: scroll; 
+}
 
 iframe::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
-.irame::-webkit-scrollbar:vertical {
-    width: 12px;
+iframe::-webkit-scrollbar:vertical {
+    width: 14px;
 }
 
 iframe::-webkit-scrollbar:horizontal {
-    height: 12px;
+    height: 14px;
 }
 
 iframe::-webkit-scrollbar-thumb {
